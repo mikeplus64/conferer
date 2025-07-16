@@ -18,7 +18,7 @@ module Conferer.FromConfig.Extended
   , module Conferer.Config
   ) where
 
-import Data.Text
+import Data.Text hiding (show)
 import Data.Typeable
 import Test.Hspec
 import GHC.Generics
